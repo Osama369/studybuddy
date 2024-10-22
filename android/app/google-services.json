@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "450626116615",
+    "project_id": "studdbuddy-a3158",
+    "storage_bucket": "studdbuddy-a3158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450626116615:android:d10027f1eed68232bf1ea2",
+        "android_client_info": {
+          "package_name": "com.exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIJZQwWYJ_7VsqWDeO6CtxJSuuXa7ztGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450626116615:android:44e9ee29862204e6bf1ea2",
+        "android_client_info": {
+          "package_name": "com.example.studdy_bu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIJZQwWYJ_7VsqWDeO6CtxJSuuXa7ztGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450626116615:android:37e313132be442c2bf1ea2",
+        "android_client_info": {
+          "package_name": "com.example.studyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIJZQwWYJ_7VsqWDeO6CtxJSuuXa7ztGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
