@@ -10,9 +10,9 @@
 
 [oerview](https://github.com/user-attachments/assets/727bb929-d91d-4921-90d4-bf004244ee10)
 
-![notification](https://github.com/user-attachments/assets/89ab402c-4be3-4832-be50-c1da385c6ae1)
+[notification](https://github.com/user-attachments/assets/89ab402c-4be3-4832-be50-c1da385c6ae1)
 
-![lborad](https://github.com/user-attachments/assets/5827ab08-828c-40d9-8a5d-65e8ee58eb89)
+[lborad](https://github.com/user-attachments/assets/5827ab08-828c-40d9-8a5d-65e8ee58eb89)
 
 
 
