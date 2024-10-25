@@ -36,22 +36,32 @@ class LeaderBoardController extends GetxController {
     }
   }
 
-  void getMyScores(String paperId) async{
+  void getMyScores(String paperId) async {
     final user = Get.find<AuthController>().getUser();
 
-    if(user == null){
-      return;
+    if (user == null) {
+      return; // User is not logged in, so return early
     }
+
     try {
       final DocumentSnapshot<Map<String, dynamic>> _leaderBoardSnapShot = await getleaderBoard(paperId: paperId).doc(user.email).get();
-      final _myScores =  LeaderBoardData.fromSnapShot(_leaderBoardSnapShot);
-      _myScores.user = UserData(
-          name: user.displayName!,
-          image: user.photoURL
-      );
-      myScores.value = _myScores;
+
+      // Check if the document exists before trying to read its data
+      if (_leaderBoardSnapShot.exists) {
+        final _myScores = LeaderBoardData.fromSnapShot(_leaderBoardSnapShot);
+        _myScores.user = UserData(
+          name: user.displayName ?? 'Unknown', // Use a default value if displayName is null
+          image: user.photoURL,
+        );
+        myScores.value = _myScores;
+      } else {
+        // Handle the case where the document doesn't exist
+        AppLogger.e("Document does not exist for user: ${user.email}");
+        myScores.value = null; // Optionally reset myScores to null or a default value
+      }
     } catch (e) {
-      AppLogger.e(e);
+      AppLogger.e("Error fetching user scores: $e");
     }
   }
+
 }

@@ -22,7 +22,7 @@ class NotificationService extends GetxService {
     AndroidInitializationSettings('@drawable/app_notification_icon');
 
     InitializationSettings initializationSettings =
-    InitializationSettings(android: androidInitializationSettings);
+    const InitializationSettings(android: androidInitializationSettings);
 
     await _notifications.initialize(
       initializationSettings,
@@ -93,5 +93,6 @@ class NotificationService extends GetxService {
     } catch (e) {
       AppLogger.e(e);
     }
+    return null;
   }
 }
