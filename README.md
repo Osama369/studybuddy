@@ -2,17 +2,15 @@
 # studybuddy
 
 # studyapp
-[home](https://github.com/user-attachments/assets/54365444-fe59-48c3-a662-50ee45f3473a)
 
-[question](https://github.com/user-attachments/assets/86c9b395-30a0-4d6a-9a04-ebdb4accf3e9)
+[home](https://github.com/user-attachments/assets/49be15d2-e4fe-4c1a-88f0-92d164cb77cf)
+[answers](https://github.com/user-attachments/assets/f948a5e3-0c36-40a2-bf46-8196daec5d1c)
+[questions](https://github.com/user-attachments/assets/7612525d-f90f-4fa4-b1f0-f8b8f067aef5)
+[overview](https://github.com/user-attachments/assets/4b6b9c6e-4f9b-4423-bdfe-bbea20c32602)
+[leaderboard](https://github.com/user-attachments/assets/1c77d788-e9f2-4f5c-a326-f613b83ee17a)
+[profile](https://github.com/user-attachments/assets/3012b177-1f1f-499b-95df-e12bfcee3889)
 
-[answer](https://github.com/user-attachments/assets/1204db91-5006-4866-a867-7c40326026f5)
 
-[oerview](https://github.com/user-attachments/assets/727bb929-d91d-4921-90d4-bf004244ee10)
-
-[notification](https://github.com/user-attachments/assets/89ab402c-4be3-4832-be50-c1da385c6ae1)
-
-[lborad](https://github.com/user-attachments/assets/5827ab08-828c-40d9-8a5d-65e8ee58eb89)
 
 
 
